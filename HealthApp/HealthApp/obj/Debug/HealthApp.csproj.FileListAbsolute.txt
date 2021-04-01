@@ -1,0 +1,10 @@
+C:\Users\Brian\source\repos\HealthApp\HealthApp\bin\Debug\HealthApp.exe.config
+C:\Users\Brian\source\repos\HealthApp\HealthApp\bin\Debug\HealthApp.exe
+C:\Users\Brian\source\repos\HealthApp\HealthApp\bin\Debug\HealthApp.pdb
+C:\Users\Brian\source\repos\HealthApp\HealthApp\obj\Debug\HealthApp.csprojAssemblyReference.cache
+C:\Users\Brian\source\repos\HealthApp\HealthApp\obj\Debug\HealthApp.HealthForm.resources
+C:\Users\Brian\source\repos\HealthApp\HealthApp\obj\Debug\HealthApp.Properties.Resources.resources
+C:\Users\Brian\source\repos\HealthApp\HealthApp\obj\Debug\HealthApp.csproj.GenerateResource.cache
+C:\Users\Brian\source\repos\HealthApp\HealthApp\obj\Debug\HealthApp.csproj.CoreCompileInputs.cache
+C:\Users\Brian\source\repos\HealthApp\HealthApp\obj\Debug\HealthApp.exe
+C:\Users\Brian\source\repos\HealthApp\HealthApp\obj\Debug\HealthApp.pdb
