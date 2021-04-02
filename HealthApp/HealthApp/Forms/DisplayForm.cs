@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HealthApp
@@ -19,14 +12,15 @@ namespace HealthApp
 
         public DisplayForm(Client client)
         {
-            fNameTB.Text = client.firstName;
+            InitializeComponent();
+            fName.Text = client.firstName;
             lNameTB.Text = client.lastName;
             dobTB.Text = client.birthMonth + "/" + client.birthDay + "/" + client.birthYear;
-            ageTB.Text = Convert.ToString(client.birthYear - DateTime.Today.Year);
+            ageTB.Text = Convert.ToString(DateTime.Today.Year - client.birthYear);
             ethnicityTB.Text = client.ethnicity;
             genderTB.Text = client.gender;
             heightTB.Text = client.heightFt + "\' " + client.heightIn + "\"";
-            weightTB.Text = Convert.ToString(client.weight);
+            weightTB.Text = Convert.ToString(client.weight) + " lbs.";
             allergiesTB.Text = client.allergy;
             pcpTB.Text = client.pcp;
             bmiTB.Text = Convert.ToString(client.bmi);

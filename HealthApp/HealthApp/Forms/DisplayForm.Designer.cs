@@ -36,26 +36,26 @@
             this.bmiCategoryTB = new System.Windows.Forms.TextBox();
             this.bmiTB = new System.Windows.Forms.TextBox();
             this.pcpTB = new System.Windows.Forms.TextBox();
+            this.pcpLB = new System.Windows.Forms.Label();
+            this.genderLB = new System.Windows.Forms.Label();
             this.allergiesTB = new System.Windows.Forms.TextBox();
             this.weightTB = new System.Windows.Forms.TextBox();
+            this.ethnicityLB = new System.Windows.Forms.Label();
             this.heightTB = new System.Windows.Forms.TextBox();
+            this.dobLB = new System.Windows.Forms.Label();
+            this.lNameLB = new System.Windows.Forms.Label();
             this.genderTB = new System.Windows.Forms.TextBox();
             this.ethnicityTB = new System.Windows.Forms.TextBox();
             this.dobTB = new System.Windows.Forms.TextBox();
             this.lNameTB = new System.Windows.Forms.TextBox();
             this.bmiCategoryLB = new System.Windows.Forms.Label();
-            this.fNameTB = new System.Windows.Forms.TextBox();
             this.ageLB = new System.Windows.Forms.Label();
             this.bmiLB = new System.Windows.Forms.Label();
-            this.pcpLB = new System.Windows.Forms.Label();
-            this.lNameLB = new System.Windows.Forms.Label();
-            this.dobLB = new System.Windows.Forms.Label();
-            this.ethnicityLB = new System.Windows.Forms.Label();
-            this.genderLB = new System.Windows.Forms.Label();
             this.heightLB = new System.Windows.Forms.Label();
             this.weightLB = new System.Windows.Forms.Label();
             this.allergiesLB = new System.Windows.Forms.Label();
             this.exitButton = new System.Windows.Forms.Button();
+            this.fName = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +85,7 @@
             // panel1
             // 
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.Controls.Add(this.fName);
             this.panel1.Controls.Add(this.ageTB);
             this.panel1.Controls.Add(this.bmiCategoryTB);
             this.panel1.Controls.Add(this.bmiTB);
@@ -103,7 +104,6 @@
             this.panel1.Controls.Add(this.dobTB);
             this.panel1.Controls.Add(this.lNameTB);
             this.panel1.Controls.Add(this.bmiCategoryLB);
-            this.panel1.Controls.Add(this.fNameTB);
             this.panel1.Controls.Add(this.ageLB);
             this.panel1.Controls.Add(this.bmiLB);
             this.panel1.ForeColor = System.Drawing.Color.Black;
@@ -144,6 +144,28 @@
             this.pcpTB.Size = new System.Drawing.Size(162, 20);
             this.pcpTB.TabIndex = 110;
             // 
+            // pcpLB
+            // 
+            this.pcpLB.AutoSize = true;
+            this.pcpLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pcpLB.ForeColor = System.Drawing.Color.Black;
+            this.pcpLB.Location = new System.Drawing.Point(74, 318);
+            this.pcpLB.Name = "pcpLB";
+            this.pcpLB.Size = new System.Drawing.Size(58, 28);
+            this.pcpLB.TabIndex = 100;
+            this.pcpLB.Text = "PCP:";
+            // 
+            // genderLB
+            // 
+            this.genderLB.AutoSize = true;
+            this.genderLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genderLB.ForeColor = System.Drawing.Color.Black;
+            this.genderLB.Location = new System.Drawing.Point(42, 158);
+            this.genderLB.Name = "genderLB";
+            this.genderLB.Size = new System.Drawing.Size(92, 28);
+            this.genderLB.TabIndex = 96;
+            this.genderLB.Text = "Gender:";
+            // 
             // allergiesTB
             // 
             this.allergiesTB.Location = new System.Drawing.Point(137, 284);
@@ -160,6 +182,18 @@
             this.weightTB.Size = new System.Drawing.Size(161, 20);
             this.weightTB.TabIndex = 108;
             // 
+            // ethnicityLB
+            // 
+            this.ethnicityLB.AutoSize = true;
+            this.ethnicityLB.BackColor = System.Drawing.Color.Transparent;
+            this.ethnicityLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ethnicityLB.ForeColor = System.Drawing.Color.Black;
+            this.ethnicityLB.Location = new System.Drawing.Point(25, 115);
+            this.ethnicityLB.Name = "ethnicityLB";
+            this.ethnicityLB.Size = new System.Drawing.Size(108, 28);
+            this.ethnicityLB.TabIndex = 95;
+            this.ethnicityLB.Text = "Ethnicity:";
+            // 
             // heightTB
             // 
             this.heightTB.Location = new System.Drawing.Point(140, 201);
@@ -167,6 +201,28 @@
             this.heightTB.ReadOnly = true;
             this.heightTB.Size = new System.Drawing.Size(161, 20);
             this.heightTB.TabIndex = 107;
+            // 
+            // dobLB
+            // 
+            this.dobLB.AutoSize = true;
+            this.dobLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dobLB.ForeColor = System.Drawing.Color.Black;
+            this.dobLB.Location = new System.Drawing.Point(14, 75);
+            this.dobLB.Name = "dobLB";
+            this.dobLB.Size = new System.Drawing.Size(66, 28);
+            this.dobLB.TabIndex = 94;
+            this.dobLB.Text = "DOB:";
+            // 
+            // lNameLB
+            // 
+            this.lNameLB.AutoSize = true;
+            this.lNameLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNameLB.ForeColor = System.Drawing.Color.Black;
+            this.lNameLB.Location = new System.Drawing.Point(14, 38);
+            this.lNameLB.Name = "lNameLB";
+            this.lNameLB.Size = new System.Drawing.Size(121, 28);
+            this.lNameLB.TabIndex = 93;
+            this.lNameLB.Text = "Last Name:";
             // 
             // genderTB
             // 
@@ -211,14 +267,6 @@
             this.bmiCategoryLB.TabIndex = 103;
             this.bmiCategoryLB.Text = "BMI Category:";
             // 
-            // fNameTB
-            // 
-            this.fNameTB.Location = new System.Drawing.Point(139, 11);
-            this.fNameTB.Name = "fNameTB";
-            this.fNameTB.ReadOnly = true;
-            this.fNameTB.Size = new System.Drawing.Size(161, 20);
-            this.fNameTB.TabIndex = 92;
-            // 
             // ageLB
             // 
             this.ageLB.AutoSize = true;
@@ -240,62 +288,6 @@
             this.bmiLB.Size = new System.Drawing.Size(60, 28);
             this.bmiLB.TabIndex = 102;
             this.bmiLB.Text = "BMI:";
-            // 
-            // pcpLB
-            // 
-            this.pcpLB.AutoSize = true;
-            this.pcpLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pcpLB.ForeColor = System.Drawing.Color.Black;
-            this.pcpLB.Location = new System.Drawing.Point(74, 318);
-            this.pcpLB.Name = "pcpLB";
-            this.pcpLB.Size = new System.Drawing.Size(58, 28);
-            this.pcpLB.TabIndex = 100;
-            this.pcpLB.Text = "PCP:";
-            // 
-            // lNameLB
-            // 
-            this.lNameLB.AutoSize = true;
-            this.lNameLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lNameLB.ForeColor = System.Drawing.Color.Black;
-            this.lNameLB.Location = new System.Drawing.Point(14, 38);
-            this.lNameLB.Name = "lNameLB";
-            this.lNameLB.Size = new System.Drawing.Size(121, 28);
-            this.lNameLB.TabIndex = 93;
-            this.lNameLB.Text = "Last Name:";
-            // 
-            // dobLB
-            // 
-            this.dobLB.AutoSize = true;
-            this.dobLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dobLB.ForeColor = System.Drawing.Color.Black;
-            this.dobLB.Location = new System.Drawing.Point(14, 75);
-            this.dobLB.Name = "dobLB";
-            this.dobLB.Size = new System.Drawing.Size(66, 28);
-            this.dobLB.TabIndex = 94;
-            this.dobLB.Text = "DOB:";
-            // 
-            // ethnicityLB
-            // 
-            this.ethnicityLB.AutoSize = true;
-            this.ethnicityLB.BackColor = System.Drawing.Color.Transparent;
-            this.ethnicityLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ethnicityLB.ForeColor = System.Drawing.Color.Black;
-            this.ethnicityLB.Location = new System.Drawing.Point(25, 115);
-            this.ethnicityLB.Name = "ethnicityLB";
-            this.ethnicityLB.Size = new System.Drawing.Size(108, 28);
-            this.ethnicityLB.TabIndex = 95;
-            this.ethnicityLB.Text = "Ethnicity:";
-            // 
-            // genderLB
-            // 
-            this.genderLB.AutoSize = true;
-            this.genderLB.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.genderLB.ForeColor = System.Drawing.Color.Black;
-            this.genderLB.Location = new System.Drawing.Point(42, 158);
-            this.genderLB.Name = "genderLB";
-            this.genderLB.Size = new System.Drawing.Size(92, 28);
-            this.genderLB.TabIndex = 96;
-            this.genderLB.Text = "Gender:";
             // 
             // heightLB
             // 
@@ -345,6 +337,13 @@
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // fName
+            // 
+            this.fName.Location = new System.Drawing.Point(139, 11);
+            this.fName.Name = "fName";
+            this.fName.Size = new System.Drawing.Size(160, 20);
+            this.fName.TabIndex = 114;
             // 
             // DisplayForm
             // 
@@ -396,6 +395,6 @@
         private System.Windows.Forms.TextBox ethnicityTB;
         private System.Windows.Forms.TextBox dobTB;
         private System.Windows.Forms.TextBox lNameTB;
-        private System.Windows.Forms.TextBox fNameTB;
+        private System.Windows.Forms.TextBox fName;
     }
 }

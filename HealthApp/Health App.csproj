@@ -51,9 +51,6 @@
     <None Include=".vs\slnx.sqlite" />
     <None Include=".vs\VSWorkspaceState.json" />
     <None Include="HealthApp\App.config" />
-    <None Include="HealthApp\Client\ClientHelpers\.vs\ClientHelpers\v16\.suo" />
-    <None Include="HealthApp\Client\ClientHelpers\.vs\slnx.sqlite" />
-    <None Include="HealthApp\Client\ClientHelpers\.vs\VSWorkspaceState.json" />
     <None Include="HealthApp\Forms\.vs\Forms\v16\.suo" />
     <None Include="HealthApp\Forms\.vs\slnx.sqlite" />
     <None Include="HealthApp\Forms\.vs\VSWorkspaceState.json" />
@@ -73,7 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HealthApp\Client\Client.cs" />
-    <Compile Include="HealthApp\Client\ClientHelpers\ClientHelper.cs" />
     <Compile Include="HealthApp\Forms\DisplayForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,12 +81,6 @@
     </Compile>
     <Compile Include="HealthApp\Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HealthApp\Forms\SuccessDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HealthApp\Forms\SuccessDialog.Designer.cs">
-      <DependentUpon>SuccessDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="HealthApp\Helpers\CutomException.cs" />
     <Compile Include="HealthApp\Program.cs" />
@@ -114,9 +104,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HealthApp\Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HealthApp\Forms\SuccessDialog.resx">
-      <DependentUpon>SuccessDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HealthApp\Properties\Resources.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">

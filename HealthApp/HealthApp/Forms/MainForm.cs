@@ -1,7 +1,4 @@
-﻿using Health_App.HealthApp.Forms;
-using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
+﻿using System;
 using System.Windows.Forms;
 
 namespace HealthApp
@@ -36,7 +33,7 @@ namespace HealthApp
                     client.bmi = getBMI(client);
                     client.bmiCategory = setBMICategory(client.bmi);
 
-                    Close();
+                    this.Hide();
                     new DisplayForm(client).Show();
                 }
                 else
