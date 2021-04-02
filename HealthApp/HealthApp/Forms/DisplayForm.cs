@@ -29,6 +29,8 @@ namespace HealthApp
             weightTB.Text = Convert.ToString(client.weight);
             allergiesTB.Text = client.allergy;
             pcpTB.Text = client.pcp;
+            bmiTB.Text = Convert.ToString(client.bmi);
+            bmiCategoryTB.Text = client.bmiCategory;
         }
 
         private void exitButton_Click(object sender, EventArgs e)

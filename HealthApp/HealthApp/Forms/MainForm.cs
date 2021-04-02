@@ -16,11 +16,10 @@ namespace HealthApp
         {
             try
             {
-                new MainForm();
                 Client client = new Client();
 
-                if (string.IsNullOrEmpty(fNameTB.Text) && string.IsNullOrEmpty(lNameTB.Text) && string.IsNullOrEmpty(ethnicityCB.Text) && string.IsNullOrEmpty(genderCB.Text) && string.IsNullOrEmpty(heightFtNUD.Text)
-                    && string.IsNullOrEmpty(weightNUD.Text) && string.IsNullOrEmpty(DOBYearNUD.Text) && string.IsNullOrEmpty(DOBMonthNUD.Text) && string.IsNullOrEmpty(DOBDayNUD.Text) && (yesRB.Checked || noRB.Checked) && string.IsNullOrEmpty(PCPCB.Text))
+                if (!string.IsNullOrEmpty(fNameTB.Text) && !string.IsNullOrEmpty(lNameTB.Text) && !string.IsNullOrEmpty(ethnicityCB.Text) && !string.IsNullOrEmpty(genderCB.Text) && !string.IsNullOrEmpty(heightFtNUD.Text)
+                    && !string.IsNullOrEmpty(weightNUD.Text) && !string.IsNullOrEmpty(DOBYearNUD.Text) && !string.IsNullOrEmpty(DOBMonthNUD.Text) && !string.IsNullOrEmpty(DOBDayNUD.Text) && (yesRB.Checked || noRB.Checked) && !string.IsNullOrEmpty(PCPCB.Text))
                 {
                     client.firstName = fNameTB.Text;
                     client.lastName = lNameTB.Text;
@@ -34,8 +33,11 @@ namespace HealthApp
                     client.birthDay = Int32.Parse(DOBDayNUD.Text);
                     client.allergy = yesRB.Checked ? "Yes" : "No";
                     client.pcp = PCPCB.Text;
+                    client.bmi = getBMI(client);
+                    client.bmiCategory = setBMICategory(client.bmi);
 
-                    new DisplayForm(client);
+                    Close();
+                    new DisplayForm(client).Show();
                 }
                 else
                 {
@@ -46,6 +48,39 @@ namespace HealthApp
             {
                 new CustomException("Error extrapolating form data.", error);
             }
+        }
+
+        public double getBMI(Client client)
+        {
+            try
+            {
+                double bmi = Math.Round(Convert.ToDouble(703 * client.weight) / Math.Pow(Convert.ToDouble(client.heightFt * 12 + client.heightIn), 2), 2);
+                return bmi;
+            }
+            catch (Exception e)
+            {
+                new CustomException("Exception caught trying to set BMI", e);
+            }
+
+            return 0.0;
+        }
+        public string setBMICategory(double bmi)
+        {
+
+            try
+            {
+                string bmiCategory = bmi < 18.5 ? "Underweight" :
+                bmi < 24.9 ? "Normal Weight" :
+                bmi < 29.9 ? "Overweight" : "Obese";
+
+                return bmiCategory;
+            }
+            catch (Exception e)
+            {
+                new CustomException("Error trying to set BMI category.", e);
+            }
+
+            return "";
         }
         private void exitButton_Click(object sender, EventArgs e)
         {

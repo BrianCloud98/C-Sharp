@@ -6,3 +6,18 @@ L:\Projects\C-Sharp\HealthApp\obj\x86\Debug\Health_App.HealthApp.Properties.Reso
 L:\Projects\C-Sharp\HealthApp\obj\x86\Debug\Health App.csprojAssemblyReference.cache
 L:\Projects\C-Sharp\HealthApp\obj\x86\Debug\Health_App.Properties.Resources.resources
 L:\Projects\C-Sharp\HealthApp\obj\x86\Debug\Health App.csproj.CoreCompileInputs.cache
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\Health App.csprojAssemblyReference.cache
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\HealthApp.DisplayForm.resources
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\HealthApp.MainForm.resources
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\Health_App.HealthApp.Forms.SuccessDialog.resources
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\Health_App.HealthApp.Properties.Resources.resources
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\Health_App.Properties.Resources.resources
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\Health App.csproj.GenerateResource.cache
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\Health App.csproj.CoreCompileInputs.cache
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\bin\Debug\WindowsApplication.exe.config
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\bin\Debug\WindowsApplication.exe
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\bin\Debug\WindowsApplication.pdb
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\Health App.csproj.CopyComplete
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\WindowsApplication.exe
+C:\Users\Brian\OneDrive\Documents\GitHub\C-Sharp\HealthApp\obj\x86\Debug\WindowsApplication.pdb

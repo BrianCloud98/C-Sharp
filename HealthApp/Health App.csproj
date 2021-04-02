@@ -73,7 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HealthApp\Client\Client.cs" />
-    <Compile Include="HealthApp\Client\ClientDatabase.cs" />
     <Compile Include="HealthApp\Client\ClientHelpers\ClientHelper.cs" />
     <Compile Include="HealthApp\Forms\DisplayForm.cs">
       <SubType>Form</SubType>
