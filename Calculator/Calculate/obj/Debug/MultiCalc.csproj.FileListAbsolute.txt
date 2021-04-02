@@ -1,0 +1,25 @@
+C:\Users\Brian\Source\Repos\GitHub-unpublished\MultiCalc\obj\Debug\MultiCalc.csprojAssemblyReference.cache
+C:\Users\Brian\Source\Repos\GitHub-unpublished\MultiCalc\obj\Debug\MultiCalc.MainForm.resources
+C:\Users\Brian\Source\Repos\GitHub-unpublished\MultiCalc\obj\Debug\MultiCalc.Properties.Resources.resources
+C:\Users\Brian\Source\Repos\GitHub-unpublished\MultiCalc\obj\Debug\MultiCalc.csproj.GenerateResource.cache
+C:\Users\Brian\Source\Repos\GitHub-unpublished\MultiCalc\obj\Debug\MultiCalc.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Source\Repos\MultiCalc\obj\Debug\MultiCalc.csprojAssemblyReference.cache
+C:\Users\Brian\Source\Repos\MultiCalc\obj\Debug\MultiCalc.MainForm.resources
+C:\Users\Brian\Source\Repos\MultiCalc\obj\Debug\MultiCalc.Properties.Resources.resources
+C:\Users\Brian\Source\Repos\MultiCalc\obj\Debug\MultiCalc.csproj.GenerateResource.cache
+C:\Users\Brian\Source\Repos\MultiCalc\obj\Debug\MultiCalc.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Source\Repos\MultiCalc\bin\Debug\MultiCalc.exe.config
+C:\Users\Brian\Source\Repos\MultiCalc\bin\Debug\MultiCalc.exe
+C:\Users\Brian\Source\Repos\MultiCalc\bin\Debug\MultiCalc.pdb
+C:\Users\Brian\Source\Repos\MultiCalc\obj\Debug\MultiCalc.exe
+C:\Users\Brian\Source\Repos\MultiCalc\obj\Debug\MultiCalc.pdb
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\bin\Debug\MultiCalc.exe.config
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\bin\Debug\MultiCalc.exe
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\bin\Debug\MultiCalc.pdb
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\obj\Debug\MultiCalc.csprojAssemblyReference.cache
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\obj\Debug\MultiCalc.MainForm.resources
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\obj\Debug\MultiCalc.Properties.Resources.resources
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\obj\Debug\MultiCalc.csproj.GenerateResource.cache
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\obj\Debug\MultiCalc.csproj.CoreCompileInputs.cache
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\obj\Debug\MultiCalc.exe
+C:\Users\Brian\OneDrive\Documents\2020 Spring\C#\HMWK3 - Brian Cloud\MultiCalc\MultiCalc\obj\Debug\MultiCalc.pdb
